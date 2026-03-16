@@ -1,0 +1,16 @@
+database:
+  adapter: postgresql
+  host: prod-postgres.internal.ecommerce.com
+  port: 5432
+  username: shop_admin
+  password: "Rub7_Pr0d_Sh0p!2026_qMn"
+  database: orders
+  pool: 10
+
+stripe:
+  secret_key: "sk_live_fake123"
+  webhook_secret: "whsec_5caynfNS8tKyfRGBRdwCbFU7TV3t3Z2p"
+
+notifications:
+  support_email: support@ecommerce-shop.co.uk
+  admin_email: admin@ecommerce-shop.co.uk
